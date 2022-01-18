@@ -1,4 +1,5 @@
 import { container } from 'assets/jss/material-kit-pro-react.js';
+import BackgroundImage from 'assets/img/background.jpg';
 
 const appStyle = theme => ({
   '@global': {
@@ -11,6 +12,7 @@ const appStyle = theme => ({
     minHeight: '100vh',
     position: 'relative',
     overflow: 'hidden',
+    background: 'url(' + BackgroundImage + ') 0% 0% / cover repeat !important',
   },
   container: {
     ...container,
